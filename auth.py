@@ -17,6 +17,9 @@ def settings():
 def login():
     if request.method == "POST":
         #lógica de login
+
+
+
         username = request.form.get("username")
         password = request.form.get("password")
 
